@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ecd90a;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0647fb;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #007BFF;
+    background-color: rgb(231, 85, 136);
+    color: #007BFF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #2b00ff;
+    color: white;
+}
+
+.dots {
+    margin: 0 4px;
+    align-self: center;
+}
